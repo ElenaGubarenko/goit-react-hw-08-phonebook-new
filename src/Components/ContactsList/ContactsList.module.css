@@ -21,7 +21,7 @@
   .Logo {
     z-index: -1;
     position: absolute;
-    bottom: 0%;
+    bottom: -30px;
     left: -305px;
     position: fixed;
   }
