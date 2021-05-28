@@ -1,0 +1,29 @@
+.FindTitle {
+  margin-top: 0;
+}
+
+.FilterDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Input {
+  width: 200px;
+  border: 1px solid rgb(207, 46, 38);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 360px) {
+  .FindTitle {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .FindTitle {
+    font-size: 15px;
+  }
+}

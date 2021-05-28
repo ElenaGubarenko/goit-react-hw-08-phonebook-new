@@ -1,0 +1,52 @@
+/* body {
+  color: rgb(207, 46, 38);
+} */
+
+@media screen and (min-width: 360px) {
+  .button {
+    min-width: 100px;
+    min-height: auto;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(207, 46, 38);
+    color: white;
+    transition-property: color, background-color;
+    transition-duration: 500ms;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+body {
+  color: rgb(73, 73, 73);
+}
+
+a {
+  text-decoration: none;
+  padding: 15px;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+
+a:hover {
+  color: rgb(231, 94, 86);
+}
+
+.button:hover {
+  background-color: rgb(231, 94, 86);
+  color: white;
+}
+
+::placeholder {
+  color: rgb(209, 117, 112);
+}
+
+@media screen and (min-width: 480px) {
+  .button {
+    padding: 10px;
+    font-size: 15px;
+  }
+}

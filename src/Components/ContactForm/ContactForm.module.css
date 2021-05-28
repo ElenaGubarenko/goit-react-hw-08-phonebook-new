@@ -1,0 +1,42 @@
+@media screen and (min-width: 360px) {
+  .LabelContactForm {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.ContactForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.InputsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input {
+  width: 200px;
+  margin-left: 10px;
+  border: 1px solid rgb(207, 46, 38);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.Title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  .LabelContactForm {
+    font-size: 15px;
+  }
+}

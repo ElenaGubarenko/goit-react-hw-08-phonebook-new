@@ -1,0 +1,65 @@
+@media screen and (min-width: 360px) {
+  .HomeContainer {
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    width: 400px;
+    top: 70px;
+    left: -45px;
+    background-image: url('../Images/laters-small.png');
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .HomeContainer {
+    width: 400px;
+    left: 200px;
+    top: 0;
+    background-image: url('../Images/laters.png');
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .HomeContainer {
+    left: 40%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .HomeContainer {
+    left: 50%;
+  }
+}
+
+.Auth {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+}
+
+.AuthLink {
+  color: rgb(207, 46, 38);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Home {
+  color: rgb(207, 46, 38);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Exit {
+  color: rgb(73, 73, 73);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.HomeNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}

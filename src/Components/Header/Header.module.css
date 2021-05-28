@@ -1,0 +1,40 @@
+@media screen and (min-width: 360px) {
+  .Home {
+    color: rgb(207, 46, 38);
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .Exit {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  color: rgb(207, 46, 38);
+  border-bottom: 2px solid rgb(207, 46, 38);
+}
+
+.Navigation {
+  display: flex;
+  align-items: center;
+}
+
+.MailExit {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .Home,
+  .Exit {
+    font-size: 20px;
+  }
+}

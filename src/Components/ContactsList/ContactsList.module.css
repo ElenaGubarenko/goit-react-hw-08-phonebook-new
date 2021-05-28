@@ -1,0 +1,58 @@
+@media screen and (min-width: 360px) {
+  .NameNumber {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    min-width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .ContactsList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Logo {
+    z-index: -1;
+    position: absolute;
+    bottom: 0%;
+    left: -305px;
+    position: fixed;
+  }
+}
+
+.ContactListItem {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.Delete {
+  margin-left: 10px;
+}
+
+.Title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 580px) {
+  .NameNumber {
+    min-width: 400px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .Logo {
+    bottom: 0;
+    left: 0;
+  }
+}
