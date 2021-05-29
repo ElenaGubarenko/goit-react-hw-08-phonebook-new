@@ -27,6 +27,7 @@ body {
 .loading {
   color: rgb(207, 46, 38);
   font-size: 20px;
+  text-align: center;
 }
 
 a {
