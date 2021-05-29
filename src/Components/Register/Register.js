@@ -81,6 +81,7 @@ class Register extends Component {
 
 const mapStateToProps = state => ({
   registerUser: selectors.getRegisterUser(state),
+  // isAuthed: selectors.isAuthed(state),
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -88,4 +89,3 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Register);
-// export default Register;

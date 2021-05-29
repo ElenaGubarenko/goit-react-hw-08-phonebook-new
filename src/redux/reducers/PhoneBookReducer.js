@@ -35,6 +35,7 @@ const isAuthed = createReducer(false, {
   [actions.registerError]: () => false,
   [actions.getCurrentUserSuccess]: () => true,
   [actions.getCurrentUserError]: () => false,
+  [actions.loginError]: () => false,
   [actions.loginSuccess]: () => true,
   [actions.logoutSuccess]: () => false,
 });

@@ -1,4 +1,17 @@
 @media screen and (min-width: 360px) {
+  .Logo {
+    z-index: -1;
+    background-image: url('../Images/letters-main.png');
+    background-repeat: repeat-y;
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 300px;
+    height: 100%;
+    background-position: left;
+    position: fixed;
+  }
+
   .NameNumber {
     margin-left: 20px;
     margin-right: 10px;
@@ -16,14 +29,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .Logo {
-    z-index: -1;
-    position: absolute;
-    bottom: -30px;
-    left: -305px;
-    position: fixed;
   }
 }
 
@@ -50,9 +55,24 @@
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1000px) {
   .Logo {
-    bottom: 0;
-    left: 0;
+    background-image: url('../Images/main.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    z-index: -1;
+    position: absolute;
+    bottom: 0%;
+    top: 0;
+    left: -100px;
+    width: 400px;
+    height: 100%;
+    position: fixed;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Logo {
+    left: -3px;
   }
 }

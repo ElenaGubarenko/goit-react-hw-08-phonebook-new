@@ -2,8 +2,6 @@
   margin-right: auto;
   margin-left: auto;
   max-width: 1200px;
+  height: 100%;
   padding: 15px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }

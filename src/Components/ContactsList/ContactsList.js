@@ -8,7 +8,6 @@ import { connect } from 'react-redux';
 import operations from '../../redux/operations/operations';
 import selectors from '../../redux/selectors/selectors';
 import ContactForm from '../ContactForm';
-import img from '../Images/main.png';
 
 class ContactsList extends Component {
   componentDidMount() {
@@ -18,12 +17,13 @@ class ContactsList extends Component {
   render() {
     return (
       <div>
-        <img className={styles.Logo} src={img}></img>
+        {/* <div className={styles.Logo}></div> */}
         <Header />
         <ContactForm />
         <h1 className={styles.Title}>All contacts</h1>
         <Filter />
         <ul className={styles.ContactsList}>
+          <div className={styles.Logo}></div>
           {(this.props.filter !== ''
             ? this.props.filteredContacts
             : this.props.contacts
@@ -45,7 +45,7 @@ class ContactsList extends Component {
             );
           })}
         </ul>
-        {/* <img className={styles.Logo} src={img}></img> */}
+        {/* <div className={styles.Logo}></div> */}
       </div>
     );
   }

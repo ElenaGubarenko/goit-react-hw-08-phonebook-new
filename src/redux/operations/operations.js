@@ -49,7 +49,12 @@ const registerUser = user => dispatch => {
         localStorage.setItem('token', storageToken),
       ),
     )
-    .catch(error => dispatch(actions.registerError(error)));
+    .catch(error =>
+      dispatch(
+        actions.registerError(error),
+        window.alert('You entered something wrong'),
+      ),
+    );
 };
 
 const getCurrentUser = () => dispatch => {
@@ -78,7 +83,12 @@ const loginUser = user => dispatch => {
         localStorage.setItem('token', storageToken),
       ),
     )
-    .catch(error => dispatch(actions.loginError(error)));
+    .catch(error =>
+      dispatch(
+        actions.loginError(error),
+        window.alert('You entered something wrong'),
+      ),
+    );
 };
 
 const logoutUser = () => dispatch => {
